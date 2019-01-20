@@ -1,4 +1,3 @@
-window.onload = function () { 
 $(function() { 
   var navMain = document.querySelector('.categories');
   var menuToggle = document.querySelector('.menuToggle');
@@ -22,4 +21,3 @@ $(function() {
   });
 });
 
-}
