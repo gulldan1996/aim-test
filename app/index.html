@@ -12,6 +12,13 @@
 <body>
 	<!-- Header -->
 	<div class="header__wrapper">
+		<div id="menuToggle" class="menuToggle">
+			<input type="checkbox" />
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+		</div>
+		</article>
 		<header class="page-header">
 			<a class="page-header__log">Blog/Businnes analytics</a>
 			<h1 class="page-header__title">WHO IS REQUIRED TO SUBMIT CONTROLLED TRANSACTIONS REPORT AND <br>PREPARE TRANSFER
@@ -64,14 +71,6 @@
 					</div>
 				</div>
 			</nav>
-			<article class="navigation navigation--closed>
-				<ul class="nav__list">
-					<li class="navigation_list--item"><a>Categories</a></li>
-					<li class="navigation_list--item"><a>Blog tegs</a></li>
-					<li class="navigation_list--item"><a>Popular</a></li>
-					<li class="navigation_list--item"><a>Companies</a></li>
-				</ul>
-			</article>
 			</haeder>
 	</div>
 
@@ -99,7 +98,7 @@
 				transactions involving counterparty and the requirements as to the taxpayer’s minimum net profit. Aside from
 				that, some of the criteria for recognizing transactions as controlled were extended.</p>
 			<img class="transfer-pricing-img" src="img/price.png">
-			<article class="categories">
+			<article class="categories categories-closed">
 				<h2 class="categories__title">Categories</h2>
 				<span class="categories__title--border"></span>
 				<ul class="categories__list">
@@ -169,11 +168,13 @@
 			<article class="company">
 				<img src="img/teamwork-illustration.png" alt="" class="company-img">
 				<h3 class="company__title">ЧИ ПІДПАДАЄ ВАША КОМПАНІЯ ПІД ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</h3>
-				<a href="#" class="company__link">Пройти перевірку
-					<svg class="site-list__icon-arrow" aria-hidden="true" role="presentation" width="25" height=15>
-						<use xlink:href="svg/sprite.svg#icon-arrow"></use>
-					</svg>
-				</a>
+				<div class="company__wrapper">
+					<a href="#" class="company__link">Пройти перевірку
+						<svg class="site-list__icon-arrow" aria-hidden="true" role="presentation" width="25" height=15>
+							<use xlink:href="svg/sprite.svg#icon-arrow"></use>
+						</svg>
+					</a>
+				</div>
 			</article>
 		</section>
 
@@ -213,7 +214,7 @@
 
 		<section class="price">
 			<h3 class="price__title">Transfer pricing: the price of the violation</h3>
-			<div class="table__price">
+			<div class="table__price owl-carousel">
 				<div class="price__item">
 					<svg class="item__icon--pesok" width="50" height="50">
 						<use xlink:href="svg/sprite.svg#icon-pesok-clock"></use>
@@ -371,5 +372,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/scripts.min.js"></script>
 </body>
+
 </html>

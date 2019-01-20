@@ -1,7 +1,6 @@
 .blog-tegs {
   width: 290px;
   position: absolute;
-  height: 278px;
   border-radius: 5px;
   box-shadow: 3.5px 6.1px 14.4px 0.6px rgba(0, 0, 0, 0.09);
   background-color: #ffffff;
@@ -32,12 +31,14 @@
   flex-wrap: wrap;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 53px;
 }
 
 .blog-tegs__item .items {
   font-family: Myriad Pro;
   background-color: #e7e7e7;
   margin-top: 5px;
+  font-size: 15px;
   border-radius: 3px;
   margin-right: 8px;
   padding: 6px;
